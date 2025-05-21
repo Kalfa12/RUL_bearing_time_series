@@ -1,0 +1,13 @@
+numpy
+matplotlib
+pandas
+tensorflow
+scikit-learn
+scipy
+statsmodels
+arch
+seaborn
+sphinx
+sphinx-rtd-theme
+nbsphinx
+ipykernel
