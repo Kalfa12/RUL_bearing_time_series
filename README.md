@@ -20,7 +20,7 @@ Le cœur du projet est implémenté dans le notebook `projet_Time_series.ipynb`.
 ### Pipeline Principal de Prédiction RUL
 L'approche principale comprend :
 1.  **Chargement et Prétraitement des Données :** Chargement du jeu de données `features_1st_test.csv` et préparation initiale des données. Cela inclut le renommage des colonnes et la définition de l'index temporel.
-2.  **Calcul de l'Indicateur de Santé (HI) :** Un Indicateur de Santé est généralement dérivé en utilisant l'Analyse en Composantes Principales (ACP) sur les caractéristiques des capteurs. La première composante principale (PC1) est souvent utilisée comme HI.
+2.  **Calcul de l'Indicateur de Santé (HI) :** Un Indicateur de Santé est généralement dérivé en utilisant l'Analyse en Composantes Principales (ACP) sur les caractéristiques des capteurs. La première composante principale (PC1) est utilisée comme HI.
 3.  **Ajustement Exponentiel pour la RUL :** Un modèle exponentiel est ajusté à l'Indicateur de Santé calculé pour prédire la RUL. Le notebook simule ce processus de prédiction de manière itérative.
 
 ### Modèles Exploratoires
@@ -45,7 +45,7 @@ Le projet est développé en Python et utilise plusieurs bibliothèques clés.
     * Matplotlib
     * Pandas
     * TensorFlow (pour les modèles d'Apprentissage Profond)
-    * Scikit-learn (pour l'ACP et potentiellement d'autres utilitaires)
+    * Scikit-learn 
     * Statsmodels (pour les modèles ARIMA)
     * NBSphinx (pour la génération de documentation à partir de notebooks, comme suggéré par `conf.py`)
 3.  **Installation :**
