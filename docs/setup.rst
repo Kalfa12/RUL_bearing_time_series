@@ -18,10 +18,8 @@ Le projet s'appuie sur plusieurs bibliothèques Python. Assurez-vous de les avoi
 * **arch :** Pour le test de stationnarité de Phillips-Perron.
 * **seaborn :** Pour des visualisations statistiques améliorées.
 
-Vous pouvez généralement les installer avec pip :
+Vous pouvez les installer avec pip :
 
 .. code-block:: bash
 
     pip install numpy matplotlib pandas tensorflow scikit-learn scipy statsmodels arch seaborn
-
-*(Note : Le notebook installe ``arch`` dans la cellule [17])*
