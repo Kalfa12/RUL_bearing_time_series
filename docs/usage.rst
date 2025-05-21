@@ -10,7 +10,7 @@ Pour utiliser ce projet et exécuter le notebook Jupyter ``projet_Time_series.ip
 
 2.  **Obtention des Données :**
     * Le projet nécessite le fichier ``features_1st_test.csv``.
-    * **Vous devez télécharger ce fichier depuis: *(https://drive.google.com/file/d/1pK3qD5RD5CudSJyLYJbXNCcU9os4C5NI/view?usp=sharing)*
+    * Vous devez télécharger ce fichier depuis: `ce lien Google Drive <https://drive.google.com/file/d/1pK3qD5RD5CudSJyLYJbXNCcU9os4C5NI/view?usp=sharing>`_
 
 3.  **Chargement des Données dans Google Colab (si applicable) :**
     * Si vous exécutez dans Google Colab :
