@@ -45,14 +45,11 @@ Modélisation ARIMA
         model_fit = model.fit()
         print(model_fit.summary())
 
-* Les résidus sont analysés (Cellule [34]). Le test de Ljung-Box sur les résidus (lag=10) donne une p-value d'environ 0.0375, indiquant une possible autocorrélation résiduelle.
-
 Évaluation du Modèle ARIMA
 --------------------------
 
 * **Échelle Différenciée :**
     * Les prédictions (``prediction_diff``) sont faites sur l'ensemble de test (Cellule [35]).
-    * MSE ≈ 0.0058 (Cellule [37]).
     * Les prédictions sont tracées par rapport aux données réelles différenciées (Cellule [38]).
 * **Échelle Originale :**
     * Les prédictions sont ramenées à l'échelle originale (``prediction_original``) par dé-différenciation (Cellules [39]-[40]).
