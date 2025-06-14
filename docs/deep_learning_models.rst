@@ -1,6 +1,6 @@
 .. _deep_learning_models:
 
-Modèles d'Apprentissage Profond (Deep Learning) (Exploratoire) : Prédiction de l'Indicateur de Santé
+Modèles d'Apprentissage Profond (Deep Learning) : Prédiction de l'Indicateur de Santé
 ===================================================================================================
 
 Cette section explore les RNN (SimpleRNN, LSTM, GRU) pour la prédiction de l'HI.
@@ -22,7 +22,6 @@ Entraînement des Modèles
 
 * Chaque modèle est compilé avec l'optimiseur 'adam' et la fonction de perte 'mse'.
 * L'entraînement est effectué sur ``X_train`` et ``Y_train`` pour 100 époques avec une taille de lot de 32 (Cellule [50]).
-    *(Note: Les données d'entrée ``X_train`` et ``X_test`` doivent être remodelées en ``(échantillons, pas de temps, caractéristiques)`` pour les couches RNN, par exemple, ``(nombre_échantillons, 3, 1)``.)*
 
 Prédiction et Visualisation
 ---------------------------
