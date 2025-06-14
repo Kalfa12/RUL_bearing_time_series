@@ -6,7 +6,7 @@ Configuration et Installation
 Bibliothèques Utilisées
 -----------------------
 
-Le projet s'appuie sur plusieurs bibliothèques Python. Assurez-vous de les avoir installées dans votre environnement :
+Le projet s'appuie sur plusieurs bibliothèques Python:
 
 * **numpy :** Pour les opérations numériques.
 * **matplotlib.pyplot :** Pour la création de graphiques et la visualisation.
