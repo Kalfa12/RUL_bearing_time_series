@@ -379,7 +379,7 @@ with tab5:
 
 # --- Chatbot Logic ---
 def get_chatbot_response(prompt):
-    """A more advanced rule-based chatbot using a knowledge base."""
+    """rule-based chatbot using a knowledge base."""
     prompt = prompt.lower()
     tokens = set(re.findall(r'\b\w+\b', prompt))
 
