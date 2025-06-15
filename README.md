@@ -1,4 +1,4 @@
-# RUL Bearing Time Series - Prédiction de la Durée de Vie Utile Résiduelle
+# RUL Bearing Time Series - Prédiction de la Durée de Vie Utile Restante
 
 ## Introduction
 Ce projet se concentre sur l'analyse de données de séries temporelles provenant de capteurs de roulements afin de prédire leur Durée de Vie Utile Résiduelle (RUL). L'objectif principal est de développer des modèles capables d'estimer avec précision combien de temps un roulement continuera de fonctionner avant une défaillance, en se basant sur les lectures de ses capteurs au fil du temps.
